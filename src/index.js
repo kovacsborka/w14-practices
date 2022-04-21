@@ -12,7 +12,7 @@ root.render(
   <React.StrictMode>
     
     < ButtonWithClass />
-    < ButtonWithHooks />
+    {/* < ButtonWithHooks />*/}    
     < Header to="This is the end of the header"/>
   </React.StrictMode>
 );
