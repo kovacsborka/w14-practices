@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 //import App from './App';
-import ButtonWithClass from './components/ButtonWithClass';
+//import ButtonWithClass from './components/ButtonWithClass';
 import ButtonWithHooks from './components/ButtonWithHooks';
 
 import Header from './components/Header';
@@ -11,8 +11,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     
-    < ButtonWithClass />
-    {/* < ButtonWithHooks />*/}    
+    {/* < ButtonWithClass /> */}
+    < ButtonWithHooks />    
     < Header to="This is the end of the header"/>
   </React.StrictMode>
 );
